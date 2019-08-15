@@ -1,1 +1,7 @@
 .vscode
+/TestApp/nbproject/private/
+/TestApp/build/
+nbproject
+build.xml
+manifest.mf
+__pycache__

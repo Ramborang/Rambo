@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+import sys
 #TODO Create a function to add an array of integers together
 
 #SPECIFICATION
@@ -15,7 +15,21 @@
 	#  */
 def sumArray(intArray):
     #remove return statement and add code here!
-    return 0
+	#set result variable (result = 0)
+	result = 0.0
+	maximum = sys.maxsize
+	minimum = -sys.maxsize -1
+
+	for e in intArray: 
+		result = result + e
+		print(result)
+	if result > maximum:
+		result = maximum
+	if result < minimum:
+		result = minimum	
+	#return final result by (return result)
+	return int(result)
+
 
 
 # To test your solution try running the following command
