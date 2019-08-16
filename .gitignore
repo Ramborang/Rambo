@@ -5,3 +5,6 @@ nbproject
 build.xml
 manifest.mf
 __pycache__
+bin
+.project
+.DS_Store
