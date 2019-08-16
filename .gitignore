@@ -6,6 +6,5 @@ build.xml
 manifest.mf
 __pycache__
 bin
-.classpath
 .project
 .DS_Store
