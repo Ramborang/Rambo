@@ -13,12 +13,12 @@ public class WeightedDie extends Die {
     @Override
     public int roll() {
         Random randomNumGenerator = new Random();
-        int randomNumber = randomNumGenerator.nextInt(sides) + 1;
+        int randomNumber = randomNumGenerator.nextInt(sides_object) + 1;
         boolean halfChance = randomNumGenerator.nextBoolean();
         if(halfChance) {
             randomNumber += 3;
-            if(randomNumber > 12) {
-                randomNumber = 12;
+            if(randomNumber > sides_object) {
+                randomNumber = sides_object;
             }
         }
         return randomNumber;

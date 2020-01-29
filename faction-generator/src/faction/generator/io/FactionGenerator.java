@@ -1,6 +1,5 @@
 package faction.generator.io;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class FactionGenerator {
